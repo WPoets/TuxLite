@@ -34,7 +34,7 @@ kindly refer to these links:-
 
     # Install git and clone TuxLite
     aptitude install git
-    git clone https://github.com/Mins/TuxLite.git
+    git clone https://github.com/WPoets/TuxLite
     cd TuxLite
     
     # Edit options to enter server IP, MySQL password etc.
