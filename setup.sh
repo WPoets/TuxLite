@@ -204,7 +204,9 @@ function install_webserver {
         a2enmod fastcgi
         a2enmod ssl
         a2enmod rewrite
-
+		a2enmod expires
+		a2enmod headers
+		
         cat ./config/fastcgi.conf > /etc/apache2/mods-available/fastcgi.conf
 
         # Create the virtual directory for the external server
